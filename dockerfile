@@ -1,9 +1,9 @@
 FROM python:3
 
-RUN git clone https://github.com/santidotpy/crud-persona.git
+RUN git clone https://github.com/santidotpy/kaffeemaschine.git
 
-WORKDIR /crud-persona
+WORKDIR /kaffeemaschine
 
 RUN pip install -r requirements.txt
 
-CMD ["python3", "test_persona.py"]
+CMD ["python3", "test_coffee.py"]
